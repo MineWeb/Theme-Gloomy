@@ -30,7 +30,7 @@
             </div>
             <div class="panel-body">
                 <?php if($isConnected) { ?>
-                    <button style="opacity: 1;color: #c4c4c4;" class="btn btn-block disabled">Vous avez <?= ($isConnected) ? $money.' '.$Configuration->getMoneyName() : $Lang->get('SHOP__TITLE'); ?></button>
+                    <button style="opacity: 1;color: #c4c4c4;" class="btn btn-block disabled">Vous avez <?= ($isConnected) ? $money : $Lang->get('SHOP__TITLE'); ?></button>
                     <?php if($Permissions->can('CREDIT_ACCOUNT')) { ?>
                         <a href="#" data-toggle="modal" data-target="#addmoney" class="btn btn-primary btn-block"><?= $Lang->get('SHOP__ADD_MONEY') ?></a>
                     <?php } ?>
