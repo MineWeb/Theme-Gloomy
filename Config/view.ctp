@@ -59,11 +59,6 @@ if(isset($config['logo']) && $config['logo']) {
                      <td><input type="text" class="form-control" name="urldiscord" value="<?= $theme_config['urldiscord'] ?>"></td>
                    </tr>
                    <tr>
-                     <td><?= $Lang->get('THEME__FAVICON_URL') ?></td>
-                     <td><i>Par default : #</i></td>
-                     <td><input type="text" class="form-control" name="favicon" value="<?= $config['favicon'] ?>"></td>
-                   </tr>
-                   <tr>
                      <td>URL Image background</td>
                      <td><i>Par default : #</i></td>
                      <td><input type="text" class="form-control" name="img_bg" value="<?= $theme_config['img_bg'] ?>"></td>
